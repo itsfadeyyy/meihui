@@ -35,6 +35,9 @@ section{
     padding: 0 80px;
     margin: auto;
 }
+.workcon{
+    min-height: 200px;
+}
 .about, .services, .skills, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
@@ -548,6 +551,20 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    /* -webkit-box-reflect: below 10px linear-gradient(transparent,transparent,#0006); */
+  }
+
 
 
 /* responsive media query start */
@@ -678,4 +695,5 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
+
 }
